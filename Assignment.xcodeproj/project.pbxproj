@@ -21,6 +21,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A81491A2FB4103600D5D9CF /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		61FB7EA32FA1267400D3A629 /* Assignment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -45,6 +50,7 @@
 		61FB7E982FA1267400D3A629 = {
 			isa = PBXGroup;
 			children = (
+				4A81491A2FB4103600D5D9CF /* Screenshots */,
 				61FB7EA32FA1267400D3A629 /* Assignment */,
 				61FB7EA22FA1267400D3A629 /* Products */,
 			);
@@ -74,6 +80,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				4A81491A2FB4103600D5D9CF /* Screenshots */,
 				61FB7EA32FA1267400D3A629 /* Assignment */,
 			);
 			name = Assignment;
