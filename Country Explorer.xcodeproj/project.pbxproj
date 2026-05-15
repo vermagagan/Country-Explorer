@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		61FB7EA12FA1267400D3A629 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FB7EA12FA1267400D3A629 /* Country Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		61FB7EB32FA1267700D3A629 /* Exceptions for "Assignment" folder in "Assignment" target */ = {
+		61FB7EB32FA1267700D3A629 /* Exceptions for "Country Explorer" folder in "Country Explorer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 61FB7EA02FA1267400D3A629 /* Assignment */;
+			target = 61FB7EA02FA1267400D3A629 /* Country Explorer */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -26,12 +26,12 @@
 			path = Screenshots;
 			sourceTree = "<group>";
 		};
-		61FB7EA32FA1267400D3A629 /* Assignment */ = {
+		61FB7EA32FA1267400D3A629 /* Country Explorer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				61FB7EB32FA1267700D3A629 /* Exceptions for "Assignment" folder in "Assignment" target */,
+				61FB7EB32FA1267700D3A629 /* Exceptions for "Country Explorer" folder in "Country Explorer" target */,
 			);
-			path = Assignment;
+			path = "Country Explorer";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -51,7 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				4A81491A2FB4103600D5D9CF /* Screenshots */,
-				61FB7EA32FA1267400D3A629 /* Assignment */,
+				61FB7EA32FA1267400D3A629 /* Country Explorer */,
 				61FB7EA22FA1267400D3A629 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,7 +59,7 @@
 		61FB7EA22FA1267400D3A629 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61FB7EA12FA1267400D3A629 /* Assignment.app */,
+				61FB7EA12FA1267400D3A629 /* Country Explorer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61FB7EA02FA1267400D3A629 /* Assignment */ = {
+		61FB7EA02FA1267400D3A629 /* Country Explorer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61FB7EB42FA1267700D3A629 /* Build configuration list for PBXNativeTarget "Assignment" */;
+			buildConfigurationList = 61FB7EB42FA1267700D3A629 /* Build configuration list for PBXNativeTarget "Country Explorer" */;
 			buildPhases = (
 				61FB7E9D2FA1267400D3A629 /* Sources */,
 				61FB7E9E2FA1267400D3A629 /* Frameworks */,
@@ -81,13 +81,13 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4A81491A2FB4103600D5D9CF /* Screenshots */,
-				61FB7EA32FA1267400D3A629 /* Assignment */,
+				61FB7EA32FA1267400D3A629 /* Country Explorer */,
 			);
-			name = Assignment;
+			name = "Country Explorer";
 			packageProductDependencies = (
 			);
 			productName = Assignment;
-			productReference = 61FB7EA12FA1267400D3A629 /* Assignment.app */;
+			productReference = 61FB7EA12FA1267400D3A629 /* Country Explorer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61FB7E9C2FA1267400D3A629 /* Build configuration list for PBXProject "Assignment" */;
+			buildConfigurationList = 61FB7E9C2FA1267400D3A629 /* Build configuration list for PBXProject "Country Explorer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61FB7EA02FA1267400D3A629 /* Assignment */,
+				61FB7EA02FA1267400D3A629 /* Country Explorer */,
 			);
 		};
 /* End PBXProject section */
@@ -153,7 +153,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment/Info.plist;
+				INFOPLIST_FILE = "Country Explorer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Country Explorer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -164,7 +165,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gagan.Assignment;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Country-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -184,7 +185,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Assignment/Info.plist;
+				INFOPLIST_FILE = "Country Explorer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Country Explorer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -195,7 +197,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gagan.Assignment;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagan.Country-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -329,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61FB7E9C2FA1267400D3A629 /* Build configuration list for PBXProject "Assignment" */ = {
+		61FB7E9C2FA1267400D3A629 /* Build configuration list for PBXProject "Country Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61FB7EB72FA1267700D3A629 /* Debug */,
@@ -338,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61FB7EB42FA1267700D3A629 /* Build configuration list for PBXNativeTarget "Assignment" */ = {
+		61FB7EB42FA1267700D3A629 /* Build configuration list for PBXNativeTarget "Country Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61FB7EB52FA1267700D3A629 /* Debug */,
